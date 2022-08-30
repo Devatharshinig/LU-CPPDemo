@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,n1,rn=0,un=0;
+    cout<<"Enter n : ";
+    cin>>n;
+    n1=n;
+    while(n1>0){
+        un=n1%10; 
+        rn=(rn*10)+un;
+        n1=n1/10;
+    }
+    cout<<"\nNumber before reversing : "<<n;
+    cout<<"\nNumber after reversing : "<<rn;
+    return 0;
+}
