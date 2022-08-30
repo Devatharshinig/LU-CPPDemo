@@ -1,0 +1,35 @@
+//LCM
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1, n2, max;
+    cout << "Enter two numbers: ";
+    cin >> n1 >> n2;//12,18
+    max = (n1 > n2) ? n1 : n2;//18
+    do{
+        if (max % n1 == 0 && max % n2 == 0){//18%12=0 & 18%18=0
+            cout << "LCM = " << max;
+            break;
+        }else
+            ++max;
+    }while (true);
+    return 0;
+}
+_____________________________________________________________________________________________________
+// Length of a string
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string str;
+    cout<<"Enter the string : ";
+    cin>>str;
+    cout<<"Length of the string "<<str<<" is : "<<str.length();
+    return 0;
+}
