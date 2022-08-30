@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    int printAnswer(int a);
+    cout<<"Enter the number : ";
+    cin>>a;
+    cout<<"Factoria of "<<a<<" is : "<<printAnswer(a);
+    return 0;
+}
+int printAnswer(int a){
+    int i,f=1;
+    for(int i=1;i<=a;i++){
+        f=f*i;
+    }
+    return f;
+}
