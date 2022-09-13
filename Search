@@ -1,0 +1,7 @@
+When to use binary search
+A. when the elements are sorted we can use binary search. It works by repeatedly dividing the array in half the portion of the list that could contain the item, 
+until you've narrowed down the possible locations to just one.
+
+
+When to use Linear search
+A. When the elements are not sorted we can use linear search.
