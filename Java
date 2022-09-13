@@ -38,3 +38,32 @@ apple.eat();
 orange.eat();  
  }  
 }  
+___________________________________________________________________-
+For Constructor
+
+public class Student{
+
+    private String name;
+    private int m1,m2,m3,m4,m5;
+
+    public Student(String name, int m1, int m2, int m3, int m4, int m5) {
+        this.name = name;
+        this.m1 = m1;
+        this.m2 = m2;
+        this.m3 = m3;
+        this.m4 = m4;
+        this.m5 = m5;
+        System.out.println("called");
+    }
+    public String toString() {
+    return name + "," + m1+ "," + m2+ "," + m3+ "," + m4+ "," + m5;
+}
+}
+public class Main{
+
+    public static void main(String[] args) {
+
+        Student s1 = new Student("Kevin", 80, 90, 90,70,80);
+        System.out.println(s1.toString());
+    }
+}
