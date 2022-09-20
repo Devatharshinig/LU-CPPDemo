@@ -6,3 +6,12 @@ int main(){
 cout<<"Hello World";
 return 0;
 }
+
+Hello world Program
+
+#include<iostream>
+using namespace std;
+int main(){
+cout<<"Hello World Program";
+return 0;
+}
